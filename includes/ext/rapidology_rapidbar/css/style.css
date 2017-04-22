@@ -1,0 +1,530 @@
+.rad_rapidology_rapidbar.rad_rapidology_rapidbar_trigger_auto{
+    display: none !important;
+}
+.rad_rapidology_rapidbar  .rad_rapidology_redirect_page{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+.stickytop{
+    position: relative;
+}
+.stickytop_stick{
+    position: fixed;
+    top: 0;
+}
+
+.stickytop_wrapper{
+    position: relative;
+    width:100%;
+    margin: 0 auto;
+}
+.fixed-wrapper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+.sticky_adminbar_push{
+    position: relative;
+    width:100%;
+    height:32px;
+}
+.stickybottom{
+    position: fixed;
+    bottom: 0;
+}
+.nonsticktop{
+    position: relative;
+}
+.nonstickbottom{
+    position:relative;
+}
+.rapidbar_bottom_padding{
+    padding-bottom:30px !important;
+}
+.rad_rapidology_rapidbar{
+    width:100vw !important;
+    min-width:100% !important;
+    z-index: 9999999999; /*I hate to add this but need reliablity to be ontop over everything else */
+}
+.rad_rapidology_preview_rapidbar{
+    width:98.5vw !important;
+    min-width:750px !important;
+    z-index: 9999999999; /*I hate to add this but need reliablity to be ontop over everything else */
+}
+.rad_rapidology_rapidbar_form_container_wrapper{
+    overflow:hidden !important;
+    text-align: center;
+    max-width:100% !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex: 0 1 100% !important;
+    flex-flow: row wrap;
+}
+.rad_rapidology_rapidbar_form strong, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form strong{
+    font-weight: bold;
+}
+
+.rad_rapidology_rapidbar_form .rad_rapidology_form_container, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_container{
+    max-width:100% !important;
+}
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_text{
+    padding:0 !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: center;
+    justify-content: flex-end;
+}
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text p, .rad_rapidology_preview_rapidbar .rad_rapidology_form_text p{
+    font-size:17px !important;
+    text-align: center !important;
+    line-height: 50px !important;
+
+}
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text p strong, .rad_rapidology_preview_rapidbar .rad_rapidology_form_text p strong {
+    font-weight: bold;
+}
+.rad_rapidology_rapidbar_input, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_input{
+    float:left;
+    padding-left:14px !important;
+}
+.rad_rapidology_rapidbar_container{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.rad_rapidology_rapidbar_form_content{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.rad_rapidology_rapidbar_input input, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_input input{
+    width: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height:26px;
+    width:150px !important;
+    border: none !important;
+    margin-left:10px !important;
+}
+.rad_rapidology_rapidbar .rad_rapidology_header_text_light .rad_rapidology_form_text p, .rad_rapidology_preview_rapidbar .rad_rapidology_header_text_light .rad_rapidology_form_text p{
+    color: #fff !important;
+}
+.rad_rapidology_rapidbar_form .rad_rapidology_submit_subscription, .rad_rapidology_rapidbar_form .rad_rapidology_redirect_page, .rad_rapidology_preview_rapidbar  .rad_rapidology_submit_subscription, .rad_rapidology_preview_rapidbar .rad_rapidology_redirect_page{
+    float:right;
+    padding: 5px 20px !important;
+    margin: 0 0 0 6px !important;
+    text-align: center !important;
+    cursor: pointer;
+    border: none;
+    font-size:14px !important;
+    line-height: 14px !important;
+    height: 26px !important;
+
+}
+
+.rad_rapidology_rapidbar_form_header{
+    max-width: 100% !important;
+    width: auto !important;
+}
+
+.rad_rapidology_rapidbar_form_header .rad_rapidology_success_container{
+    display: none;
+}
+.rad_rapidology_rapidbar .rad_rapidology_button_text.rad_rapidology_button_text_color_dark{
+    color: rgb(0,0,0)!important;
+}
+.rad_rapidology_rapidbar .rad_rapidology_button_text.rad_rapidology_button_text_color_light{
+    color: #fff !important;
+}
+
+.rad_rapidology_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_close_button, .rad_rapidology_preview_rapidbar .rad_rapidology_close_button{
+    background-color: transparent !important;
+    border: none !important;
+    position: relative !important;
+    right: auto !important;
+    top: auto !important;
+    box-shadow: none !important;
+    align-self: flex-end !important;
+    width: 30px !important;
+    margin-right:15px;
+    line-height: 30px !important;
+}
+.rad_rapidology_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_close_button::before, .rad_rapidology_preview_rapidbar .rad_rapidology_close_button::before{
+    position: relative !important;
+    right: auto !important;
+    top: auto !important;
+}
+
+.rad_rapidology .rad_rapidology_rapidbar_form .rad_rapidology_close_button.dark, .rad_rapidology_preview_rapidbar .rad_rapidology_close_button.dark{
+    color:#7E7B7B !important;
+}
+.rad_rapidology .rad_rapidology_rapidbar_form .rad_rapidology_close_button.light, .rad_rapidology_preview_rapidbar .rad_rapidology_close_button.light{
+    color: #fff !important;
+}
+
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input::-moz-placeholder,
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input:-moz-placeholder
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input::-webkit-input-placeholder,
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input::-ms-input-placeholder,
+.rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input::-moz-placeholder,
+.rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input:-moz-placeholder,
+.rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input::-webkit-input-placeholder,
+.rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input:-ms-input-placeholder{
+    color:#fff;
+    font-weight:300 !important;
+    font-size:13px !important;
+}
+
+
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_text_light input{
+    background-color: rgba(255,255,255,0.3);
+    color: #fff;
+}
+
+
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text_dark input, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form .rad_rapidology_form_text_dark input{
+    background-color: #fff;
+    color: rgba(0,0,0,0.6)!important;
+    padding-left:12px;
+}
+
+.hidden_item, .rad_rapidology_preview_rapidbar .hidden_item{
+    display:none;
+}
+.rad_rapidology_rapidbar .rad_power_rapidology, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar .rad_power_rapidology{
+    width: 50px !important;
+    max-width:50px !important;
+    line-height: 30px !important;
+}
+
+.rad_power_box_mode_rapidbar, .rad_rapidology_preview_rapidbar .rad_power_box_mode_rapidbar{
+    z-index: 100000;
+}
+
+.rad_power_box_mode_rapidbar .rad_power_logo, .rad_rapidology_preview_rapidbar .rad_power_box_mode_rapidbar .rad_power_logo{
+    font-size:25px !important;
+}
+.rad_power_box_mode_rapidbar_light .rad_power_logo, .rad_rapidology_preview_rapidbar .rad_power_box_mode_rapidbar_light .rad_power_logo{
+    color: #fff !important;
+}
+.rad_power_box_mode_rapidbar_dark .rad_power_logo, .rad_rapidology_preview_rapidbar .rad_power_box_mode_rapidbar_dark .rad_power_logo{
+    color:#7E7B7B !important;
+}
+.rad_power_rapidology a .rad_power_logo:after, .rad_rapidology_preview_rapidbar .rad_power_rapidology a .rad_power_logo:after {
+    font-family: 'rapidology-cirlogo' !important;
+    content:"\e601" !important;
+    font-size: 30px !important;
+    margin-right: 5px;
+    margin-left:5px;
+    vertical-align: middle !important;
+}
+
+.rad_rapidology_rapidbar_form_header  .rad_rapidology_success_message, .rad_rapidology_rapidbar_form_header .rad_rapidology_success_container.rad_rapidology_animate_success{
+    margin-top:0 !important;
+    height:100% !important;
+    width: 100% !important;
+    min-width:350px !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+}
+
+
+.rad_rapidology_rapidbar h2.rad_rapidology_success_message, .rad_rapidology_rapidbar h2.rad_rapidology_success_message.rad_rapidology_animate_message{
+    padding:0 !important;
+    width:100% !important;
+    line-height:45px !important;
+}
+
+
+/*----admin css -----*/
+
+.rad_dashboard_select_optin{display:none;}
+
+/*---rapdibar preivew specific----*/
+.rad_rapidology_preview_rapidbar{
+    position: fixed;
+    top:32px;
+    width: 98vw !important;
+}
+.rad_rapidology_preview_rapidbar::after{
+    top:93px !important;
+    bottom:93px !important;
+}
+.rad_rapidology_preview_rapidbar .rad_rapidology_form_container{
+    max-width:100% !important;
+}
+
+.rad_rapidology_preview_rapidbar.stickybottom{margin-bottom: 0 !important;}
+.rad_rapidology_preview_rapidbar.stickytop{margin-top: 0 !important;}
+
+.rad_rapidology_preview_rapidbar .rad_rapidology_form_text {
+    padding: 0 !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.rad_rapidology_preview_rapidbar .rad_rapidology_form_container {z-index: 999999999;}
+.rapidbar_preview_wrapper:after{ content: ""; background-color: rgba(0,0,0,.6); top: 0; left: 0; width: 100%; height: 100%; position: fixed; }
+
+.rad_rapidology_preview_rapidbar .rad_rapidology_header_text_dark h2{  color: #898C91 !important;  }
+.rad_rapidology_preview_rapidbar .rad_rapidology_header_text_dark p { color: rgba(137,140,145,0.7) !important; }
+.rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_form_container_wrapper{
+    overflow:hidden !important;
+    text-align: center;
+    max-width:100% !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex: 0 1 94% !important;
+}
+
+
+
+/*-----------border css------------*/
+
+div[class*="rad_rapidology_border_"]{border-width: 5px !important;}
+.rad_rapidology_rapidbar.rad_rapidology_border_solid{ border: 6px solid #4fa8ed !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_solid.rad_rapidology_rapidbar_form_bottom{ border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_solid.rad_rapidology_rapidbar_border_position_top{ border-left: none; border-right: none; border-bottom: none;  }
+.rad_rapidology_rapidbar.rad_rapidology_border_solid.rad_rapidology_rapidbar_border_position_right{ border-left: none; border-top: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_solid.rad_rapidology_rapidbar_border_position_bottom{ border-left: none; border-top: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_solid.rad_rapidology_rapidbar_border_position_left{ border-bottom: none; border-top: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_solid.rad_rapidology_rapidbar_border_position_top_bottom{border-left: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_solid.rad_rapidology_rapidbar_border_position_left_right{ border-bottom: none; border-top: none; }
+
+.rad_rapidology_rapidbar.rad_rapidology_border_inset{ -moz-box-shadow: inset 0 0 0 3px #4fa8ed; -webkit-box-shadow: inset 0 0 0 3px #4fa8ed; box-shadow: inset 0 0 0 3px #4fa8ed; border: 8px solid #fff; padding: 3px; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset  { margin-bottom: -11px !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_form_right  { margin-left: 11px !important; margin-top: 1% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_form_left  { margin-right: 11px !important; margin-top: 1% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_border_position_top{ -moz-box-shadow: inset 0 3px 0 0 #4fa8ed; -webkit-box-shadow: inset 0 3px 0 0 #4fa8ed; box-shadow: inset 0 3px 0 0 #4fa8ed; border-right: none; border-left: none; border-bottom: none; padding: 3px 0 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_border_position_right{ -moz-box-shadow: inset -3px 0 0 0 #4fa8ed; -webkit-box-shadow: inset -3px 0 0 0 #4fa8ed; box-shadow: inset -3px 0 0 0 #4fa8ed; border-top: none; border-left: none; border-bottom: none; padding: 0 3px 0 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_border_position_bottom{ -moz-box-shadow: inset 0 -3px 0 0 #4fa8ed; -webkit-box-shadow: inset 0 -3px 0 0 #4fa8ed; box-shadow: inset 0 -3px 0 0 #4fa8ed; border-top: none; border-left: none; border-right: none; padding: 0 0 3px 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_border_position_left{ -moz-box-shadow: inset 3px 0 0 0 #4fa8ed; -webkit-box-shadow: inset 3px 0 0 0 #4fa8ed; box-shadow: inset 3px 0 0 0 #4fa8ed; border-top: none; border-bottom: none; border-right: none; padding: 0 0 0 3px; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_border_position_top_bottom{ -moz-box-shadow: inset 0 3px 0 0 #4fa8ed, inset 0 -3px 0 0 #4fa8ed; -webkit-box-shadow: inset 0 3px 0 0 #4fa8ed, inset 0 -3px 0 0 #4fa8ed; box-shadow: inset 0 3px 0 0 #4fa8ed, inset 0 -3px 0 0 #4fa8ed; border-left: none; border-right: none; padding: 3px 0 3px; }
+.rad_rapidology_rapidbar.rad_rapidology_border_inset.rad_rapidology_border_position_left_right{ -moz-box-shadow: inset 3px 0 0 0 #4fa8ed, inset -3px 0 0 0 #4fa8ed; -webkit-box-shadow: inset 3px 0 0 0 #4fa8ed, inset -3px 0 0 0 #4fa8ed; box-shadow: inset 3px 0 0 0 #4fa8ed, inset -3px 0 0 0 #4fa8ed; border-top: none; border-bottom: none; padding: 0 3px 0 3px; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double{ -moz-box-shadow: inset 0 0 0 6px #fff, inset 0 0 0 8px #4fa8ed; -webkit-box-shadow: inset 0 0 0 6px #fff, inset 0 0 0 8px #4fa8ed; box-shadow: inset 0 0 0 6px #fff, inset 0 0 0 8px #4fa8ed; border: 2px solid #4fa8ed; padding: 8px; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double  { margin-bottom: -10px !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_form_right  { margin-left: 10px !important; margin-top: 1% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_form_left  { margin-right: 10px !important; margin-top: 1% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_border_position_top{ -moz-box-shadow: inset 0 6px 0 0 #fff, inset 0 8px 0 0 #4fa8ed; -webkit-box-shadow: inset 0 6px 0 0 #fff, inset 0 8px 0 0 #4fa8ed; box-shadow: inset 0 6px 0 0 #fff, inset 0 8px 0 0 #4fa8ed; border: 2px solid #4fa8ed; padding: 8px 0 0; border-right: none; border-left: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_border_position_right{ -moz-box-shadow: inset -6px 0 0 0 #fff, inset -8px 0 0 0 #4fa8ed; -webkit-box-shadow: inset -6px 0 0 0 #fff, inset -8px 0 0 0 #4fa8ed; box-shadow: inset -6px 0 0 0 #fff, inset -8px 0 0 0 #4fa8ed; border: 2px solid #4fa8ed; padding: 0 8px 0 0; border-top: none; border-left: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_border_position_bottom{ -moz-box-shadow: inset 0 -6px 0 0 #fff, inset 0 -8px 0 0 #4fa8ed; -webkit-box-shadow: inset 0 -6px 0 0 #fff, inset 0 -8px 0 0 #4fa8ed; box-shadow: inset 0 -6px 0 0 #fff, inset 0 -8px 0 0 #4fa8ed; border: 2px solid #4fa8ed; padding: 0 0 8px 0; border-top: none; border-left: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_border_position_left{ -moz-box-shadow: inset 4px 0 0 0 #fff, inset 6px 0 0 0 #4fa8ed; -webkit-box-shadow: inset 4px 0 0 0 #fff, inset 6px 0 0 0 #4fa8ed; box-shadow: inset 6px 0 0 0 #fff, inset 8px 0 0 0 #4fa8ed; border: 2px solid #4fa8ed; padding: 0 0 0 8px; border-top: none; border-bottom: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_border_position_top_bottom{ -moz-box-shadow: inset 0 6px 0 0 #fff, inset 0 8px 0 0 #4fa8ed, inset 0 -6px 0 0 #fff, inset 0 -8px 0 0 #4fa8ed; -webkit-box-shadow: inset 0 6px 0 0 #fff, inset 0 8px 0 0 #4fa8ed, inset 0 -6px 0 0 #fff, inset 0 -8px 0 0 #4fa8ed; box-shadow: inset 0 6px 0 0 #fff, inset 0 8px 0 0 #4fa8ed, inset 0 -6px 0 0 #fff, inset 0 -8px 0 0 #4fa8ed; border: 2px solid #4fa8ed; padding: 8px 0 8px; border-left: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_double.rad_rapidology_border_position_left_right{ -moz-box-shadow: inset 6px 0 0 0 #fff, inset 8px 0 0 0 #4fa8ed, inset -6px 0 0 0 #fff, inset -8px 0 0 0 #4fa8ed; -webkit-box-shadow: inset 6px 0 0 0 #fff, inset 8px 0 0 0 #4fa8ed, inset -6px 0 0 0 #fff, inset -8px 0 0 0 #4fa8ed; box-shadow: inset 6px 0 0 0 #fff, inset 8px 0 0 0 #4fa8ed, inset -6px 0 0 0 #fff, inset -8px 0 0 0 #4fa8ed; border: 2px solid #4fa8ed; padding: 0 8px 0 8px; border-top: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed  { background: white; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_form_right { margin-top: 1.5% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed  { width: 100% !important; margin: auto; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed { border: 2px dashed #fff; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_top { border-left: none; border-right: none; border-bottom: none;  }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_right { border-left: none; border-top: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_bottom { border-left: none; border-top: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_left { border-bottom: none; border-top: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_top_bottom { border-left: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_left_right { border-bottom: none; border-top: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_top{ padding: 8px 0 0 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_right{ padding: 0 8px 0 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_bottom{ padding: 0 0 8px 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_left{ padding: 0 0 0 8px; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_top_bottom{ padding: 8px 0 8px 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed.rad_rapidology_border_position_left_right{ padding: 0 8px 0 8px; }
+.rad_rapidology_rapidbar.rad_rapidology_border_dashed { padding: 0; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter { padding: 6px; background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter  { background-color: #cecece; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter  { background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); padding: 6px 6px 0 !important; width: 98%; margin: auto !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_form_left { height: 95%; float: left; padding: 6px 0 6px 6px !important; width: 100%; margin-top: 1% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_form_left  { padding: 6px 6px 6px 0 !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_form_left  { margin-top: 0 !important; height: 100% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter   { width: 100% !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_top { padding: 6px 0 0; background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); border-right: none; border-left: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_right { padding: 0 6px 0 0; background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); border-top: none; border-left: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_bottom { padding: 0 0 6px 0; background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); border-top: none; border-left: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_left { padding: 0 0 0 6px; background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); border-top: none; border-bottom: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_top_bottom { padding: 6px 0 6px; background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); border-left: none; border-right: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_left_right { padding: 0 6px 0 6px; background: repeating-linear-gradient( 135deg, #4fa8ed, #4fa8ed 10px, #fff 10px, #fff 20px, #f84d3b 20px, #f84d3b 30px, #fff 30px, #fff 40px ); border-top: none; border-bottom: none; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter { background: none !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_bottom  { padding: 0 0 6px 0 !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_top_bottom  { padding: 6px 0 6px 0 !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_left_right  { padding: 0 6px 0 6px !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_top { padding: 6px 0 0 0 !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_right { padding: 0 6px 0 0 !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_left { padding: 0 0 0 6px !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter.rad_rapidology_border_position_bottom { padding: 0 !important; }
+.rad_rapidology_rapidbar.rad_rapidology_border_letter { padding: 0 !important; }
+.rad_rapidology_rapidbar .rad_rapidology_rounded_corners.rad_rapidology_border_letter  { border-radius: 5px; }
+
+.close_ctr{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: row;
+    width:25px;
+}
+
+.rad_rapidology_rapidbar_form_content form{
+    margin-bottom:0 !important;
+    margin-top: 0 !important;
+}
+
+/*-----Responsive------*/
+@media screen and (max-width: 650px){
+
+    .rad_rapidology_rapidbar_form_content form {
+        overflow: hidden !important;
+        max-width: 100% !important;
+        min-width: 200px !important;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .rad_rapidology_rapidbar_input{
+        padding-left: 0 !important;
+    }
+    .rad_rapidology_rapidbar_input input, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_input input{
+        margin-left: 0 !important;
+        padding: 0 !important;
+    }
+    .rad_rapidology_rapidbar_input input, .rad_rapidology_preview_rapidbar .rad_rapidology_rapidbar_input input{
+        width:190px !important;
+        margin-bottom:10px !important;
+        padding: 0 !important;
+        float: none !important;
+    }
+
+
+    .rad_rapidology_rapidbar_form .rad_rapidology_submit_subscription, .rad_rapidology_rapidbar_form .rad_rapidology_redirect_page, .rad_rapidology_preview_rapidbar .rad_rapidology_submit_subscription, .rad_rapidology_preview_rapidbar .rad_rapidology_redirect_page{
+        width:190px !important;
+        padding: 0 !important;
+        margin-left:0 !important;
+        margin-top: 0 !important;
+        margin-bottom:10px !important;
+        float: none !important;
+    }
+
+}
+
+@media screen and (max-width: 640px){
+    .rad_rapidology_rapidbar .rad_rapidology_form_container button{
+        width: 190px !important;
+        min-width: 190px !important;
+        padding-left:10px !important;
+        padding-right: 10px !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        margin-left:0 !important;
+        margin-top: 0 !important;
+        margin-bottom:10px !important;
+        float: none !important;
+    }
+}
+
+.rad_rapidology_rapidbar_form .rad_rapidology_form_text p.rapidbar_form_responsive, .rad_rapidology_preview_rapidbar .rad_rapidology_form_text p.rapidbar_form_responsive{
+    line-height: 20px !important;
+    margin-top:10px !important;
+    margin-bottom: 10px !important;
+}
+
+/**CONSENT FORM**/
+
+.rapid_consent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.rapid_consent_closed{
+    display:none;
+}
+
+.rapid_consent .accept_consent{
+    align-self: flex-start;
+}
+.rapid_consent .consent_text{
+    width:700px;
+}
+.consent_error{
+    color:red;
+    text-align: center;
+    display:none;
+}
+.disabled_click{
+    z-index: 999;
+}

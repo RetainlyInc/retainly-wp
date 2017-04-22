@@ -1,0 +1,307 @@
+
+/*------------------------------------------------*/
+/*-------------------[RapidBar]-----------------*/
+/*------------------------------------------------*/
+.current_optin_type_rapidbar .rad_rapidology_hide_for_rapidbar { display: none; }
+.current_optin_type_rapidbar .rad_rapidology_rapidbar.rad_only_option { display: block; }
+.rad_dashboard_type_rapidbar:before {
+    content: "\e65a";
+    -webkit-transform: rotate(-180deg);
+    /* Firefox */
+    -moz-transform: rotate(-180deg);
+    /* IE */
+    -ms-transform: rotate(-180deg);
+    /* Opera */
+    -o-transform: rotate(-180deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=6);
+}
+
+.rad_dashboard_for_rapidbar{
+    display:block !important;
+}
+
+/*------------Marketing Page-------------------*/
+.current_tab_rad_dashboard_tab_content_header_support{
+    padding: 0 !important;
+}
+.marketing_wrapper{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.marketing_header h1 {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: none;
+    font-size: 26px;
+    font-weight:400;
+    color: #373942;
+    margin-left:10px;
+}
+.marketing_header p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #bdc4d6;
+    margin-left:10px;
+    margin-top:-5px;
+    font-size: 14px;
+}
+.rapidology_marketing_main{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.rapidology_marketing_main > div{
+    height: 250px;
+    border: 2px solid #bdc4d6;
+    margin:10px 10px 30px;
+    width:45%;
+}
+
+.box_header{
+    height:50px;
+    background: #bdc4d6;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.box_header p{
+    color: #fff;
+    line-height: 14px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700 !important;
+}
+
+.rapidology_marketing_content{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 200px;
+}
+.rapidology_marketing_content > div{
+    height: 102px;
+    width: 315px;
+}
+.rapidology_marketing_content img{
+    height: 150px;
+    width: 115px;
+}
+.rapidology_marketing_content p{
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    margin-bottom: 30px !important;
+}
+.rapidology_marketing_content a{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    background: #47ccad;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #fff;
+    text-align: center;
+    border-radius:5px;
+    margin-left:10px;
+    font-size:14px;
+}
+
+.rapidology_marketing_sidebar{
+    width:275px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.signup{
+    height: 315px;
+    width:250px;
+    border-left: 2px solid #bdc4d6;
+    margin-bottom: 30px;
+    padding-left:10px;
+}
+.signup .header{
+    font-weight:400;
+    font-size:16px;
+    text-align: center;
+    color: #373942;
+    font-style: normal;
+    margin-top:20px;
+    margin-bottom:0 !important;
+    text-transform: uppercase;
+}
+.signup p{
+    margin-left:10px;
+    font-style: italic;
+    width: 185px;
+    margin-bottom:10px !important;
+}
+.newsletter_email{
+    height:40px;
+    width: 200px;
+    background:#f3f5f8 !important;
+    border: none;
+}
+
+
+.newsletter_email::-webkit-input-placeholder{
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+.newsletter_email:-moz-placeholder{
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+.newsletter_email::-moz-placeholder {
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+.newsletter_email:-ms-input-placeholder{
+    font-size:14px;
+    margin-left:10px;
+    color:#939aaa;
+}
+.newsletter_submit_button{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #ff5e6e;
+    text-decoration: none;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+    border-radius:23px;
+    margin-top:10px;
+    font-size:14px;
+    display: block;
+    width:200px;
+    cursor: pointer !important;
+}
+.newsletter_submit_button:hover{
+    color: #fff;
+    background: #BD404D;
+}
+
+.privacy_link{
+    margin-top:10px;
+    text-align: center;
+    font-size: 13px;
+    color:#939aaa;
+    display: block;
+    width: 200px;
+    text-decoration: underline !important;
+    -webkit-text-decoration-color: #939aaa !important;
+    -moz-text-decoration-color: #939aaa !important;
+    text-decoration-color: #939aaa !important;
+}
+.quick_links{
+    height: 217px;
+    border-left: 2px solid #bdc4d6;
+    width:250px;
+    padding-left:10px;
+}
+
+.quick_links .header{
+    font-weight:400;
+    font-size:16px;
+    text-align: center;
+    color: #373942;
+    font-style: normal;
+    margin-top:20px;
+    margin-bottom:30px;
+    width:200px;
+}
+.quick_links ul{
+    list-style: none;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.quick_links ul li a{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color:#939aaa;
+    text-decoration: underline;
+    -webkit-text-decoration-color: #939aaa;
+    -moz-text-decoration-color: #939aaa;
+    text-decoration-color: #939aaa;
+}
+
+.ui-dialog{
+    background: transparent !important;
+
+}
+
+.loader{
+    display:none;
+    margin-left:10px;
+}
+.error{
+    color:red !important;
+    display: none;
+}
+.signup_thankyou{
+    display:none;
+}
+
+
+@media screen and (max-width: 1250px) {
+    .rapidology_marketing_main > div{
+        width: auto !important;
+    }
+}
+
+@media (min-width: 100em) {
+    .rapidology_marketing_main > div{
+        width: 450px !important;
+    }
+}

@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "retainly";
+  src:url("fonts/retainly.eot");
+  src:url("fonts/retainly.eot?#iefix") format("embedded-opentype"),
+    url("fonts/retainly.woff") format("woff"),
+    url("fonts/retainly.ttf") format("truetype"),
+    url("fonts/retainly.svg#retainly") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+#adminmenu #toplevel_page_rad_rapidology_options div.wp-menu-image:before { font-family: retainly !important; content:"\63"; font-size: 20px !important; }

@@ -1,0 +1,4 @@
+Version 1.1
+-    Changes according to Retainly needs
+version 1.0
+- Initial Release. Fork from rapidology

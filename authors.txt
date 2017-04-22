@@ -1,0 +1,26 @@
+/*************************************************************************/
+
+    All plugin files are licensed under the GNU Public License 2.0 unless
+    specified as otherwise within the file itself. Some files may be
+    licensed under alternative open source licenses such as MIT, BSD
+    or OFL. Refer to individual files for licensing information. If no
+    license is stated, then the file is placed under the GPL 2.0. You
+    will find a copy of the GPL 2.0 below.
+
+   Contributors / Authors text file per GNU
+   http://www.gnu.org/prep/maintain/maintain.html#Recording-Contributors
+
+/*************************************************************************/
+
+Retainly.
+Leadpages®,
+Elegant Themes, Inc. Bloom Plugin
+
+
+Additional OpenSource projects used in development
+http://www.gnu.org/prep/maintain/maintain.html#Recording-Contributors
+*	jquery uniform | MIT License - Javascript that makes forms look the same in all browsers.
+*	TinyMCE | LGPL 2.1 - Javascript wysiwyg text editor
+
+Rajesh Pandurangan - https://github.com/RajeshRP
+* Contributed ConvertKit integration to Rapidology
