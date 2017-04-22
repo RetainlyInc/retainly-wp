@@ -1,4 +1,4 @@
-# Retainly Plugin - by Retainly &reg; 
+# Retainly Wordpress Plugin - by Retainly.co &reg; 
 
 License: [GPLv2 or later](http://www.gnu.org/licenses/gpl-2.0.html)
 
