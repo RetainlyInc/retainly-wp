@@ -41,7 +41,7 @@ You can find out how all of your opt-in forms are performing right inside your R
 *	Easily customize colors, text, images, and more on every opt-in form.
 *	Insert custom CSS on any opt-in form.
 
-Retainly is a form of Rapidology by lead pages which used a fork of the Bloom Plugin by Elegant Themes released under GNU Public License version 2.0.
+Retainly is a fork of Rapidology by lead pages which used a fork of the Bloom Plugin by Elegant Themes released under GNU Public License version 2.0.
 
 ## Installation
 
